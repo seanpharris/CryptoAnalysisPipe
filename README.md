@@ -12,7 +12,7 @@
   * https://github.com/RomelTorres/alpha_vantage
   * https://alpha-vantage.readthedocs.io/en/latest/
 
-Markup :  - - - -
+- - - -
   
 #### Contact Info:
   * pharri.sean@gmail.com
