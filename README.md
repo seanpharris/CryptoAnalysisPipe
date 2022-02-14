@@ -2,9 +2,9 @@
 
 ### Using CSV files as data repositories, this is the pipeline working with a RapidAPI by Alpha Vantage to call and store daily records for cryptocurrencies that I have an interest in.
 
-### Those currencies are:
-| Currency code | Currency name           | Currency code | Currency name           |
-|---------------|-------------------------|---------------|-------------------------|
+### List of currencies:
+| Currency code | Currency name           |
+|---------------|-------------------------|
 | AAVE          | Aave                    |
 | ADA           | Cardano                 |
 | AION          | Aion                    |
@@ -118,6 +118,21 @@
 | ZEN           | ZenCash                 |
 | ZIL           | Zilliqa                 |
 | ZRX           | 0x                      |
+
+### Data features:
+| Date                                                | 
+| Opening currency value in the China market          | 
+| Opening currency value in the U.S. market           | 
+| Highest currency value in the China market          | 
+| Highest currency value in the U.S. market           | 
+| Lowest currency value in the China market           | 
+| Lowest currency value in the U.S. market            | 
+| Closing currency value in the China market          | 
+| Closing currency value in the U.S. market           | 
+| Volume                                              | 
+| Market Cap: U.S. market                             | 
+
+
 ### The CSVs are stored into Pandas DataFrames within a dictionary.
 * To access the DataFrames, use: `df_dict['<Name of Cryptocurrency>']`
 
