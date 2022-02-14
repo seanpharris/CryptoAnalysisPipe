@@ -1,14 +1,15 @@
 # CryptoAnalysisPipe
 
-## Table of Contents
-1. [About](#about)
-2. [Data features](#data-features)
-3. [Use](#use)
-4. [List of currencies](#List of currencies)
-
-
-### About
+## About
 Using CSV files as data repositories, this is the pipeline working with a RapidAPI by Alpha Vantage to call and store daily records for cryptocurrencies that I have an interest in.
+
+## Table of Contents
+1. [Data features](#data-features)
+2. [Use](#use)
+3. [List of currencies](#list-of-currencies)
+4. [Documentation used](#documentation-used)
+5. [Contact Info](#contact-Info)
+
 
 
 ### Data features
@@ -148,7 +149,7 @@ The CSVs are stored into Pandas DataFrames within a dictionary.
 | ZRX           | 0x                      |
 - - - -
 
-### Documentation used:
+### Documentation used
 * Alpha Vantage - https://rapidapi.com/alphavantage/api/alpha-vantage/
 * Documentation - https://www.alphavantage.co/documentation/
 * Repo for API code  
@@ -157,7 +158,7 @@ The CSVs are stored into Pandas DataFrames within a dictionary.
 
 - - - -
   
-#### Contact Info:
+### Contact Info
   * pharri.sean@gmail.com
 
 
