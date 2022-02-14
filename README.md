@@ -3,8 +3,8 @@
 ### Using CSV files as data repositories, this is the pipeline working with a RapidAPI by Alpha Vantage to call and store daily records for cryptocurrencies that I have an interest in.
 
 ### Those currencies are:
-| Currency code | Currency name           |
-|---------------|-------------------------|
+| Currency code | Currency name           | Currency code | Currency name           |
+|---------------|-------------------------|---------------|-------------------------|
 | AAVE          | Aave                    |
 | ADA           | Cardano                 |
 | AION          | Aion                    |
