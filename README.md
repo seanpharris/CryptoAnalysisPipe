@@ -120,6 +120,8 @@
 | ZRX           | 0x                      |
 
 ### Data features:
+| Feature                                             |
+|-----------------------------------------------------|
 | Date                                                | 
 | Opening currency value in the China market          | 
 | Opening currency value in the U.S. market           | 
