@@ -1,18 +1,14 @@
 # CryptoAnalysisPipe
 
-# Table of Contents
-1. [Example](#example)
+## Table of Contents
+1. [About](#example)
 2. [Example2](#example2)
 3. [Third Example](#third-example)
 4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
 
 
-## Example
-## Example2
-## Third Example
-## [Fourth Example](http://www.fourthexample.com) 
-
-### Using CSV files as data repositories, this is the pipeline working with a RapidAPI by Alpha Vantage to call and store daily records for cryptocurrencies that I have an interest in.
+### About
+Using CSV files as data repositories, this is the pipeline working with a RapidAPI by Alpha Vantage to call and store daily records for cryptocurrencies that I have an interest in.
 
 ### List of currencies:
 | Currency code | Currency name           |
@@ -131,6 +127,8 @@
 | ZIL           | Zilliqa                 |
 | ZRX           | 0x                      |
 
+## Example2 
+
 ### Data features:
 | Feature                                             |
 |-----------------------------------------------------|
@@ -146,10 +144,12 @@
 | Volume                                              | 
 | Market Cap: U.S. market                             | 
 
+### Third Example
 
 ### The CSVs are stored into Pandas DataFrames within a dictionary.
 * To access the DataFrames, use: `df_dict['<Name of Cryptocurrency>']`
 
+### [Fourth Example](http://www.fourthexample.com)
 - - - -
 
 ### Documentation used:
