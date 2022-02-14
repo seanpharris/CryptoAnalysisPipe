@@ -5,6 +5,8 @@
 ## The CSVs are stored into Pandas DataFrames within a dictionary.
 * To access the DataFrames, use: `df_dict['<Name of Cryptocurrency>']`
 
+- - - -
+
 ### Documentation used:
 * Alpha Vantage - https://rapidapi.com/alphavantage/api/alpha-vantage/
 * Documentation - https://www.alphavantage.co/documentation/
