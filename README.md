@@ -1,16 +1,36 @@
 # CryptoAnalysisPipe
 
 ## Table of Contents
-1. [About](#example)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+1. [About](#about)
+2. [Data features](#data-features)
+3. [Use](#use)
+4. [List of currencies](#List of currencies)
 
 
 ### About
 Using CSV files as data repositories, this is the pipeline working with a RapidAPI by Alpha Vantage to call and store daily records for cryptocurrencies that I have an interest in.
 
-### List of currencies:
+
+### Data features
+| Feature                                             |
+|-----------------------------------------------------|
+| Date                                                | 
+| Opening currency value in the China market          | 
+| Opening currency value in the U.S. market           | 
+| Highest currency value in the China market          | 
+| Highest currency value in the U.S. market           | 
+| Lowest currency value in the China market           | 
+| Lowest currency value in the U.S. market            | 
+| Closing currency value in the China market          | 
+| Closing currency value in the U.S. market           | 
+| Volume                                              | 
+| Market Cap: U.S. market                             | 
+
+### Use
+The CSVs are stored into Pandas DataFrames within a dictionary.
+* To access the DataFrames, use: `df_dict['<Name of Cryptocurrency>']`
+
+### List of currencies
 | Currency code | Currency name           |
 |---------------|-------------------------|
 | AAVE          | Aave                    |
@@ -126,30 +146,6 @@ Using CSV files as data repositories, this is the pipeline working with a RapidA
 | ZEN           | ZenCash                 |
 | ZIL           | Zilliqa                 |
 | ZRX           | 0x                      |
-
-## Example2 
-
-### Data features:
-| Feature                                             |
-|-----------------------------------------------------|
-| Date                                                | 
-| Opening currency value in the China market          | 
-| Opening currency value in the U.S. market           | 
-| Highest currency value in the China market          | 
-| Highest currency value in the U.S. market           | 
-| Lowest currency value in the China market           | 
-| Lowest currency value in the U.S. market            | 
-| Closing currency value in the China market          | 
-| Closing currency value in the U.S. market           | 
-| Volume                                              | 
-| Market Cap: U.S. market                             | 
-
-### Third Example
-
-### The CSVs are stored into Pandas DataFrames within a dictionary.
-* To access the DataFrames, use: `df_dict['<Name of Cryptocurrency>']`
-
-### [Fourth Example](http://www.fourthexample.com)
 - - - -
 
 ### Documentation used:
