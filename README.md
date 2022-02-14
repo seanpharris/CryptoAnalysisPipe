@@ -29,7 +29,7 @@ Using CSV files as data repositories, this is the pipeline working with a RapidA
 
 ### Use
 The CSVs are stored into Pandas DataFrames within a dictionary.
-* To access the DataFrames, use: `df_dict['<Name of Cryptocurrency>']`
+* To access the DataFrames, use: `df_dict['<Currency name>']`
 
 ### List of currencies
 | Currency code | Currency name           |
