@@ -1,8 +1,8 @@
 # CryptoAnalysisPipe
-
+- - - -
 ## About
 Using CSV files as data repositories, this is the pipeline working with a RapidAPI by Alpha Vantage to call and store daily records for cryptocurrencies.
-
+- - - -
 ## Table of Contents
 1. [Data features](#data-features)
 2. [Use](#use)
@@ -11,7 +11,7 @@ Using CSV files as data repositories, this is the pipeline working with a RapidA
 5. [Contact Info](#contact-Info)
 
 
-
+- - - -
 ### Data features
 | Feature                                             |
 |-----------------------------------------------------|
@@ -26,11 +26,11 @@ Using CSV files as data repositories, this is the pipeline working with a RapidA
 | Closing currency value in the U.S. market           | 
 | Volume                                              | 
 | Market Cap: U.S. market                             | 
-
+- - - -
 ### Use
 The CSVs are stored into Pandas DataFrames within a dictionary.
 * To access the DataFrames, use: `df_dict['<Currency name>']`
-
+- - - -
 ### List of currencies
 | Currency code | Currency name           |
 |---------------|-------------------------|
