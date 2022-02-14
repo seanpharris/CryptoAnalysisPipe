@@ -1,7 +1,7 @@
 # CryptoAnalysisPipe
 
 ## About
-Using CSV files as data repositories, this is the pipeline working with a RapidAPI by Alpha Vantage to call and store daily records for cryptocurrencies that I have an interest in.
+Using CSV files as data repositories, this is the pipeline working with a RapidAPI by Alpha Vantage to call and store daily records for cryptocurrencies.
 
 ## Table of Contents
 1. [Data features](#data-features)
