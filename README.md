@@ -5,7 +5,7 @@
 * The data comes from a RapidAPI by Alpha Vantage to call and store daily records for cryptocurrencies
 * Each crypto's data is stored its own CSV file
 * It updates the data every Wednesday at midnight 
-* The notebook can be found at [here](#https://www.kaggle.com/seanpharris/cryptoanalysispipe)
+* The notebook can be found at [here](https://www.kaggle.com/seanpharris/cryptoanalysispipe)
 - - - -
 ## Table of Contents
 1. [Data features](#data-features)
