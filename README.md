@@ -6,14 +6,30 @@
 * Each crypto's data is stored its own CSV file
 * It updates the data every Wednesday at midnight 
 * The notebook can be found at [here](https://www.kaggle.com/seanpharris/cryptoanalysispipe)
+* You may run the notebook yourself or use the output files from the one I made (linked above)
+- - - - 
+## Intentions
+My hopes are to be able to do data analysis with fresh data of the currencies and allow others to access the output files of the notebook
 - - - -
 ## Table of Contents
-1. [Data features](#data-features)
-2. [Use](#use)
-3. [List of currencies](#list-of-currencies)
-4. [Documentation used](#documentation-used)
-5. [Contact Info](#contact-Info)
-
+1. [Requirements](#requirements)
+2. [Pipe Process](#pipe-process)
+3. [Data features](#data-features)
+4. [Use](#use)
+5. [List of currencies](#list-of-currencies)
+6. [Documentation used](#documentation-used)
+7. [Contact Info](#contact-Info)
+- - - -
+### Requirements
+To run this on your own you will have to sign up for an account at [RapidAPI](https://rapidapi.com/alphavantage/api/alpha-vantage/) to get a RapidAPI Key
+- - - - 
+### Pipe Process
+* The input file "currency-list.csv" is used to put together the DataFrame dictionary
+* The name of each currency is then associated with its most recent CSV file in the dictionary
+* The date for today is found and is compared to the last updated date; that range is then put into a list
+* Each currencies DataFrame is updated with the data for that date range
+* Once the DataFrame is updated - it writes to the associated CSV
+* In the notebook, you can find examples of the DataFrame dictionary 
 
 - - - -
 ### Data features
