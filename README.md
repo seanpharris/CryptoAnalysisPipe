@@ -1,7 +1,11 @@
 # CryptoAnalysisPipe
 - - - -
 ## About
-Using CSV files as data repositories, this is the pipeline working with a RapidAPI by Alpha Vantage to call and store daily records for cryptocurrencies.
+* This is a pipeline that keeps cryptocurrency data up to date
+* The data comes from a RapidAPI by Alpha Vantage to call and store daily records for cryptocurrencies
+* Each crypto's data is stored its own CSV file
+* It updates the data every Wednesday at midnight 
+* The notebook can be found at [here](#https://www.kaggle.com/seanpharris/cryptoanalysispipe)
 - - - -
 ## Table of Contents
 1. [Data features](#data-features)
