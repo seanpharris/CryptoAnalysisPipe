@@ -31,6 +31,15 @@ To make your key a secret on Kaggle:
 5. In the "Label" text field - type "API_KEY"
 6. In the "Value" text field - copy and paste your API key from RapidAPI
 7. Click "Save"
+8. Below "Save" click "Copy-clipboard"
+9. Click "Done"
+10. Paste into a new cell towards the top of your notebook  
+It should looks something like:  
+
+from kaggle_secrets import UserSecretsClient  
+user_secrets = UserSecretsClient()  
+secret_value_0 = user_secrets.get_secret("API_KEY")  
+
 - - - - 
 ### Pipe Process
 * The input file "currency-list.csv" is used to put together the DataFrame dictionary
