@@ -49,6 +49,8 @@ secret_value_0 = user_secrets.get_secret("API_KEY")
 * Once the DataFrame is updated - it writes to the associated CSV
 * In the notebook, you can find examples of the DataFrame dictionary 
 
+If you choose to run it on your own - beware: it takes a while because you can only make up to 5 calls per a minute
+
 - - - -
 ### Data features
 | Feature                                             |
