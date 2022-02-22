@@ -23,6 +23,14 @@ My hopes are to be able to do data analysis with fresh data of the currencies an
 ### Requirements
 To run this on your own you will have to sign up for an account at [RapidAPI](https://rapidapi.com/alphavantage/api/alpha-vantage/) to get a RapidAPI Key
 In the notebook, there is a variable called "API_KEY". This is where you will use your key.
+To make your key a secret on Kaggle:
+1. Navigate to the top of the notebook in Edit
+2. click "Add-Ons" 
+3. click "Secrets"
+4. click "Add a new secret" 
+5. In the "Label" text field - type "API_KEY"
+6. In the "Value" text field - copy and paste your API key from RapidAPI
+7. Click "Save"
 - - - - 
 ### Pipe Process
 * The input file "currency-list.csv" is used to put together the DataFrame dictionary
