@@ -1,4 +1,4 @@
-# CryptoAnalysisPipe
+# crypto_analysis_pipe
 - - - -
 ## About
 * This is a pipeline that keeps cryptocurrency data up to date
